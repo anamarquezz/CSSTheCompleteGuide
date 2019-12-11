@@ -1,0 +1,23 @@
+_____________________________
+|                           |
+| What's Inside This Module |
+|___________________________|
+
+> How to add CSS to HTML
+> Setting up CSS Rules
+> Selectors, Properties & Values 
+> Conflicting Styles
+
+
+        _____________________________
+        |                           |
+        | More about Selectors      |
+        |___________________________|
+
+
+    Elements:   Set Equal style for these Elements h1 {}
+    Classes:    Set Equal style for element withing the same Classes .blog-post {}
+    Universal:  With the start selector it uses * {}
+    ID:         Set style to one specific element #main-title{ }
+    Attributes: Set equal styles all elements with Attribute(s) [disabled]{ }
+

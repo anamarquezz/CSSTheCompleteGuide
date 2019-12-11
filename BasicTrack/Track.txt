@@ -1,0 +1,103 @@
+Getting Started
+    
+   
+The Basics
+    |
+Diving Deeper
+    |
+More on Selectors & CSS Features
+    |
+Practicing the Basics
+    |
+Positioning
+
+
+
+/***********************/
+Value Types:
+Values are tightly coupled to specific property!
+
+[1] Predefined Options,
+[2] Colors, 
+[3] Length, 
+[4] Sizes & Numbers,  
+[5] Functions
+
+--------------------------------
+Adjacent Sibling +
+
+h2 + p {
+    color: red;
+}
+
+<div>
+    <h2>Not applied </h2>
+    <p> CSS applied</p>
+    <h2>Not applied</h2>
+    <h3>No applied</h3>
+    <h2>Not Applied</h2>
+    <p> CSS apploed </p>
+</div>
+
+
+> Elements share the same parent
+> Second element comes immediately after first element
+
+--------------------------------
+Child >
+
+div > p {
+    color:red
+}
+
+<div>
+    <div>Not applied</div>
+    <p>CSS applied</p>
+    <div>Not Applied</div>
+    <article>
+        <p>Not applied</p>
+    </article>
+    <p>CSS applied</p>
+</div>
+
+> Second element is a direct of first element
+
+
+
+--------------------------------
+General Sibling
+
+h2 ~ p {    
+    color:red;
+}
+
+<div>
+    <h2>Not applied </h2>
+    <p> CSS applied</p>
+    <h2>Not applied</h2>
+    <h3>No applied</h3>   
+    <p> CSS apploed </p>
+</div>
+
+> Elements share the same parent
+> Second element comes immediately after first element but does have to come direclty after
+
+
+
+--------------------------------
+Descendant
+
+div p {
+}
+
+<div>
+    <div>Not applied</div>
+    <p>CSS applied</p>
+    <div>Not Applied</div>
+    <article>
+        <p>CSS applied</p>
+    </article>
+    <p>CSS applied</p>
+</div>
+
+>Second element is a descendant of the first element

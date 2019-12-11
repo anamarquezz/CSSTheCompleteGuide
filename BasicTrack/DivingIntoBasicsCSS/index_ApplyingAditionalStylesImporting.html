@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>uHost</title>
+    <link rel="shortcut icon" href="favicon.png">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Anton&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
+    <style>
+        #section1 {
+            background-color: #d4ad64
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <section id="section1" style="background-color:#ff1b68">
+            <h1>
+                Inline CSS Style
+            </h1>
+        </section>
+        <section id="product-overview">
+            <div>
+                <h1 class="first-section-title">
+                    Get the freedom you deserve
+                </h1>
+            </div>
+        </section>
+        <section id="plans">
+            <h1 class="section-title">
+                Choose your plan
+            </h1>
+            <p>Make sure you get the most for your money!</p>
+        </section>
+        <section>
+            <br>
+            <h1>Adjacent Sibling</h1>
+            <div>
+                <h2>Not applied </h2>
+                <p> CSS applied</p>
+                <h2>Not applied</h2>
+                <h3>No applied</h3>
+                <h2>Not Applied</h2>
+                <p> CSS apploed </p>
+            </div>
+        </section>
+        <section>
+            <br>
+            <h1>General Sibling</h1>
+            <div>
+                <h2>Not applied </h2>
+                <p> CSS applied</p>
+                <h2>Not applied</h2>
+                <h3>No applied</h3>
+                <p> CSS apploed </p>
+            </div>
+        </section>
+        <section id="child">
+            <br>
+            <h1>Combinators - Child</h1>
+            <div>
+                <div>Not applied</div>
+                <p>CSS applied</p>
+                <div>Not Applied</div>
+                <article>
+                    <p>Not applied</p>
+                </article>
+                <p>CSS applied</p>
+            </div>
+        </section>
+        <section id="descendant">
+            <br>
+            <h1>Combinators - Descendant</h1>
+            <div>
+                <div>Not applied</div>
+                <p>CSS applied</p>
+                <div>Not Applied</div>
+                <article>
+                    <p>CSS applied</p>
+                </article>
+                <p>CSS applied</p>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
