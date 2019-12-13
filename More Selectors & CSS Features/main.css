@@ -1,0 +1,35 @@
+body {
+    font-family: sans-serif;
+}
+
+nav {
+    margin-bottom: 16px;
+    background: rgb(228, 105, 146);
+    padding: 8px 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+}
+
+a.active {
+    font-weight: bold;
+}
+
+a:not(.active) {
+    /* aplica a todos los a menos al activo*/
+    color: rgb(255, 255, 255);
+}
+
+.main-section {
+    height: 800px;
+    border: 1px solid #ccc !important;
+    padding: 16px;
+}
+
+.highlighted {
+    border: 2px solid rgb(228, 105, 146);
+    ;
+}
